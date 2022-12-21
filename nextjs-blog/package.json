@@ -1,13 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "../node_modules/.bin/next dev",
+    "build": "../node_modules/.bin/next build",
+    "start": "../node_modules/.bin/next start"
   },
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "date-fns": "^2.29.3",
+    "gray-matter": "^4.0.3"
   }
 }
